@@ -1,0 +1,75 @@
+.main-simpson {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ccc8e3; */
+  background-image: linear-gradient(#f086fa, #093969, #c2abda);
+  height: 100%;
+}
+
+.main-simpson .card {
+  background-color: rgb(235, 127, 188);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-simpson .card img {
+  width: 60%;
+  height: 80%;
+}
+
+.main-simpson .card h2 {
+  justify-content: center;
+  color: blue;
+}
+
+.main-simpson button {
+  background-color: #e284eb;
+  border: none;
+  color: rgb(99, 75, 238);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .main-simpson {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding: 3rem;
+  }
+  .main-simpson .card {
+    margin: 2rem;
+    background-color: wheat;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-simpson button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+}
